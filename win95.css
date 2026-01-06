@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "w95font";
+  src: url("font/w95font.woff2") format("woff2"),
+       url("font/w95font.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "w95font";
+  src: url("font/w95font-bold.woff2") format("woff2"),
+       url("font/w95font-bold.woff") format("woff");
+  font-weight: bold;
+}
+
+
+html {
+  font-family: "w95font", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: teal;
+  background-image: url("img/desktop/taskbar-start.png"),
+                    url("img/desktop/taskbar-end.png"),
+                    url("img/desktop/taskbar.png");
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: bottom left, bottom right, bottom;
+  background-attachment: fixed;
+  image-rendering: crisp-edges;
+}
+
+#title-bar {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-image: url("img/window/window-bar-l.png"),
+                    url("img/window/window-controls.png"),
+                    url("img/window/window-bar.png");
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: top left, top right, top;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 0.5px;
+  overflow: hidden;
+}
+
+#window {
+  background-color: silver;
+  background-image: url("img/window/window-lb.png"),
+                    url("img/window/window-rb.png"),
+                    url("img/window/window-l.png"),
+                    url("img/window/window-r.png"),
+                    url("img/window/window-b.png");
+  background-repeat: no-repeat, no-repeat, repeat-y, repeat-y, repeat-x;
+  background-position: bottom left, bottom right, left, right, bottom;
+  line-height: 0px;
+  padding-left: 6px;
+  overflow: hidden;
+}

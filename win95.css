@@ -34,10 +34,10 @@ body {
   image-rendering: pixelated;
 }
 
-p { margin: 0; }
+h1,p { margin: 0; }
 b { font-size: 14px; }
 
-#title-bar {
+h1 {
   font-size: 12px;
   font-weight: bold;
   color: white;
@@ -64,5 +64,4 @@ b { font-size: 14px; }
   padding-right: 6px;
   padding-bottom: 4px;
   overflow: hidden;
-
 }

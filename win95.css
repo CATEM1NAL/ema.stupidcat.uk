@@ -19,6 +19,11 @@ html {
 }
 
 body {
+  max-width: 1024px;
+  margin: auto;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
   background-color: teal;
   background-image: url("img/desktop/taskbar-start.png"),
                     url("img/desktop/taskbar-end.png"),
@@ -28,6 +33,9 @@ body {
   background-attachment: fixed;
   image-rendering: crisp-edges;
 }
+
+p { margin: 0; }
+b { font-size: 14px; }
 
 #title-bar {
   font-size: 12px;
@@ -41,7 +49,6 @@ body {
   padding-top: 6px;
   padding-left: 6px;
   padding-bottom: 0.5px;
-  overflow: hidden;
 }
 
 #window {
@@ -53,7 +60,8 @@ body {
                     url("img/window/window-b.png");
   background-repeat: no-repeat, no-repeat, repeat-y, repeat-y, repeat-x;
   background-position: bottom left, bottom right, left, right, bottom;
-  line-height: 0px;
   padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
   overflow: hidden;
 }

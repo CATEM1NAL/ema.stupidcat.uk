@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: bottom left, bottom right, bottom;
   background-attachment: fixed;
-  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 p { margin: 0; }
@@ -64,4 +64,5 @@ b { font-size: 14px; }
   padding-right: 6px;
   padding-bottom: 4px;
   overflow: hidden;
+
 }

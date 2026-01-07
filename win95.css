@@ -34,10 +34,10 @@ body {
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: bottom left, bottom right, bottom;
   background-attachment: fixed;
+  image-rendering: pixelated;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated;
 }
 
 h1,p { margin: 0; }
@@ -64,7 +64,7 @@ h1 {
   border: 2px solid transparent;
   border-image: url("img/window/border-frame.png") 2 / 2px;
   object-fit: contain;
-  max-width: calc(100% - 8px);
+  max-width: calc(100% - 6px);
 }
 
 #window {
@@ -79,7 +79,7 @@ h1 {
   padding-top: 2px;
   padding-left: 6px;
   padding-right: 6px;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
   max-height: calc(100dvh - 68px);
   overflow-x: hidden;
   overflow-y: auto;

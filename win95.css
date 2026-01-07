@@ -51,7 +51,7 @@ h1 {
   padding-bottom: 0.5px;
 }
 
-img {
+#window img {
   background-color: white;
   border-image: url("img/window/border-frame.png") 2 / 2px;
   padding: 2px;
@@ -74,5 +74,16 @@ img {
   padding-right: 6px;
   padding-bottom: 6px;
   overflow: hidden;
+}
 
+#taskbar {
+  position: fixed;
+  bottom: 2px;
+  left: 60px;
+}
+
+#taskbar img {
+  display: block;
+  float: left;
+  margin-right: 3px;
 }

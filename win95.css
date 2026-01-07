@@ -12,7 +12,6 @@
   font-weight: bold;
 }
 
-
 html {
   font-family: "w95font", sans-serif;
   font-size: 16px;
@@ -41,14 +40,21 @@ h1 {
   font-size: 12px;
   font-weight: bold;
   color: white;
+  background-color: blue;
   background-image: url("img/window/window-bar-l.png"),
                     url("img/window/window-controls.png"),
-                    url("img/window/window-bar.png");
+                    url("img/window/window-t.png");
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: top left, top right, top;
   padding-top: 6px;
   padding-left: 6px;
   padding-bottom: 0.5px;
+}
+
+img {
+  background-color: white;
+  border-image: url("img/window/border-frame.png") 2 / 2px;
+  padding: 2px;
 }
 
 #window {
@@ -60,8 +66,9 @@ h1 {
                     url("img/window/window-b.png");
   background-repeat: no-repeat, no-repeat, repeat-y, repeat-y, repeat-x;
   background-position: bottom left, bottom right, left, right, bottom;
+  padding-top: 2px;
   padding-left: 6px;
   padding-right: 6px;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
   overflow: hidden;
 }

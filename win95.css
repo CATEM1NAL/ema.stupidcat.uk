@@ -32,7 +32,7 @@ body {
   background-attachment: fixed;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast⁩;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: pixelated;
 }
 
@@ -89,5 +89,4 @@ h1 {
   display: block;
   float: left;
   margin-right: 3px;
-
 }

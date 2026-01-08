@@ -28,6 +28,9 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 64px;
+}
+
+img {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;

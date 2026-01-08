@@ -17,6 +17,7 @@
 html {
   font-family: "w95font", sans-serif;
   font-size: 22px;
+  background-color: teal;
 }
 
 body {
@@ -27,28 +28,11 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 64px;
-  background-color: teal;
-  background-image: url("img/desktop/taskbar-start.png"),
-                    url("img/desktop/taskbar-end.png");
-  background-repeat: no-repeat, no-repeat;
-  background-position: bottom left, bottom right;
-  background-attachment: fixed;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
 }
-
-#bottom-box {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;        /* makes it stretch full width */
-  height: 60px;    /* or whatever height you want */
-  background: #222; /* example color */
-  color: white;
-}
-
 
 h1,p { margin: 0; }
 b,a { font-size: 20px; }
@@ -70,7 +54,7 @@ h1 {
   padding-bottom: 1px;
 }
 
-#window img {
+.window img {
   background-color: white;
   border: 4px solid transparent;
   border-image: url("img/window/border-frame.png") 4 / 4px;
@@ -78,7 +62,7 @@ h1 {
   max-width: calc(100% - 12px);
 }
 
-#window {
+.window {
   background-color: silver;
   border: 4px solid transparent;
   border-image: url("img/window/window-frame.png") 4 / 4px;
@@ -91,25 +75,54 @@ h1 {
   scrollbar-color: blue silver;
 }
 
-#taskbar {
-  display: flex;
+nav {
   position: fixed;
   bottom: 0;
-  left: 112px;
-  gap: 2px;
-  width: calc(100% - 250px);
+  left: 0;
+  width: 100%;
   border: 4px solid transparent;
   border-image: url("img/desktop/taskbar.png") 4 / 4px;
   height: 48px;
   background: silver;
+}
+
+nav img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.navbuttons {
+  display: flex;
+  position: fixed;
+  left: 120px;
+  margin: 0;
+  padding-top: 4px;
+  gap: 6px;
+  max-height: 44px;
+  max-width: calc(100% - 256px);
+  flex: none;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-color: blue silver;
 }
 
-#taskbar img {
-  padding-top: 4px;
-  padding-left: 4px;
-  max-height: 44px;
-  flex: none;
+#navstart {
+  position: fixed;
+  left: 4px;
+  width: 100%;
+  height: 52px;
+  background: url("img/desktop/taskbar-start.png") left no-repeat;
+  pointer-events: none;
+}
+
+#navend {
+  position: fixed;
+  right: 0px;
+  width: 100%;
+  height: 52px;
+  background: url("img/desktop/taskbar-end.png") right no-repeat;
+  pointer-events: none;
 }

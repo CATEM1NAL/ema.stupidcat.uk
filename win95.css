@@ -78,7 +78,7 @@ h1 {
   max-height: calc(100dvh - 76px);
   overflow-x: hidden;
   overflow-y: auto;
-  scrollbar-color: blue black;
+  scrollbar-color: blue silver;
 }
 
 #taskbar {
@@ -93,3 +93,4 @@ h1 {
   margin-right: 3px;
 
 }
+

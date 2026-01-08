@@ -84,6 +84,7 @@ nav {
   border-image: url("img/desktop/taskbar.png") 4 / 4px;
   height: 48px;
   background: silver;
+  overflow: hidden;
 }
 
 nav img {

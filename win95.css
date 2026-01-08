@@ -82,13 +82,18 @@ h1 {
 }
 
 #taskbar {
+  display: flex;
   position: fixed;
-  bottom: 4px;
+  bottom: -1px;
   left: 120px;
+  gap: 6px;
+  max-width: calc(100% - 256px);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-color: blue silver;
 }
 
 #taskbar img {
-  display: block;
-  float: left;
-  margin-right: 6px;
+  width: 160px;
+  height: 44px;
 }

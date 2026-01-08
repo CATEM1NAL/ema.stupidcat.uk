@@ -84,11 +84,11 @@ h1 {
 #taskbar {
   display: flex;
   position: fixed;
-  bottom: 0px;
+  bottom: 4px;
   left: 120px;
   gap: 6px;
   max-width: calc(100% - 256px);
-  max-height: 48px;
+  max-height: 44px;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-color: blue silver;
@@ -97,4 +97,5 @@ h1 {
 #taskbar img {
   height: 44px;
   flex: none;
+
 }

@@ -88,12 +88,13 @@ h1 {
   left: 120px;
   gap: 6px;
   max-width: calc(100% - 256px);
+  max-height: 164px;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-color: blue silver;
 }
 
 #taskbar img {
-  width: 160px;
   height: 44px;
+  flex: none;
 }

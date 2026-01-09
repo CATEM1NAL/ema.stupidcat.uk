@@ -39,7 +39,7 @@ h1 {
   font-weight: bold;
   color: white;
   background-color: blue;
-  background-image: url("img/window/window-controls.gif");
+  background-image: url("img/window/controls.gif");
   background-repeat: no-repeat;
   background-position: right 4px center;
   padding-top: 6px;
@@ -97,7 +97,6 @@ nav {
 
 .navbuttons {
   display: flex;
-  align-items: center;
   position: fixed;
   left: 120px;
   margin: 0;
@@ -129,6 +128,7 @@ nav {
 }
 
 .navbuttons a {
+  align-items: center;
   font-weight: normal;
   font-size: 25px;
   text-decoration: none;
@@ -168,7 +168,8 @@ nav {
 
 #clock p {
   text-align: center;
-  margin-top: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   user-select: none;
 }
 

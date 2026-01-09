@@ -21,17 +21,12 @@ html {
 }
 
 body {
-  max-width: 1024px;
   overflow: hidden;
-  margin: auto;
   padding-top: 12px;
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 64px;
   image-rendering: pixelated;
-  image-rendering: crisp-edges;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
 }
 
 h1,p { margin: 0; }
@@ -43,8 +38,6 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   color: white;
-  border: 8px solid transparent;
-  border-image: url("img/window/header-frame.png") 8 / 8px;
   background-color: blue;
   background-image: url("img/window/window-controls.png");
   background-repeat: no-repeat;
@@ -54,25 +47,39 @@ h1 {
   padding-bottom: 1px;
 }
 
-.window img {
+hr {
+  height: 2px;
+  background-color: white;
+  border: none;
+  border-top: 2px solid gray;
+}
+
+.window {
+  margin: auto;
+  max-width: 1024px;
+  background-color: silver;
+  border: 4px solid transparent;
+  border-image: url("img/window/window-frame.png") 4 / 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.window-content {
+  max-height: calc(100dvh - 148px);
+  padding-bottom: 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-color: blue silver;
+}
+
+.window-content img {
+  margin-top: 8px;
   background-color: white;
   border: 4px solid transparent;
   border-image: url("img/window/border-frame.png") 4 / 4px;
   object-fit: contain;
-  max-width: calc(100% - 12px);
-}
-
-.window {
-  background-color: silver;
-  border: 4px solid transparent;
-  border-image: url("img/window/window-frame.png") 4 / 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-  max-height: calc(100dvh - 152px);
-  overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-color: blue silver;
+  max-width: calc(100% - 8px);
 }
 
 nav {
@@ -126,4 +133,12 @@ nav img {
   height: 52px;
   background: url("img/desktop/taskbar-end.png") right no-repeat;
   pointer-events: none;
+}
+
+iframe {
+  margin-top: 8px;
+  width: calc(100% - 8px);
+  height: calc(100dvh - 172px);
+  border: 4px solid transparent;
+  border-image: url("img/window/border-frame.png") 4 / 4px;
 }

@@ -39,12 +39,13 @@ h1 {
   font-weight: bold;
   color: white;
   background-color: blue;
-  background-image: url("img/window/window-controls.png");
+  background-image: url("img/window/window-controls.gif");
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: right 4px center;
   padding-top: 6px;
   padding-left: 6px;
   padding-bottom: 1px;
+  user-select: none;
 }
 
 hr {
@@ -59,7 +60,7 @@ hr {
   max-width: 1024px;
   background-color: silver;
   border: 4px solid transparent;
-  border-image: url("img/window/window-frame.png") 4 / 4px;
+  border-image: url("img/window/border.gif") 4 / 4px;
   padding-top: 4px;
   padding-left: 4px;
   padding-right: 4px;
@@ -77,7 +78,7 @@ hr {
   margin-top: 8px;
   background-color: white;
   border: 4px solid transparent;
-  border-image: url("img/window/border-frame.png") 4 / 4px;
+  border-image: url("img/content/border.gif") 4 / 4px;
   object-fit: contain;
   max-width: calc(100% - 8px);
 }
@@ -88,18 +89,10 @@ nav {
   left: 0;
   width: 100%;
   border: 4px solid transparent;
-  border-image: url("img/desktop/taskbar.png") 4 / 4px;
+  border-image: url("img/taskbar/top.gif") 4 / 4px;
   height: 48px;
   background: silver;
   overflow: hidden;
-}
-
-nav img {
-  -khtml-user-select: none;
-  -o-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 .navbuttons {
@@ -117,34 +110,72 @@ nav img {
   scrollbar-color: blue silver;
 }
 
+.navbuttons p {
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-top: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: black;
+  width: 149px;
+  height: 30px;
+  background-image: url("img/nav/bg.gif");
+  border: 4px solid transparent;
+  border-image: url("img/nav/border1.gif") 4 / 4px;
+  user-select: none;
+}
+
+.navbuttons a {
+  font-weight: normal;
+  font-size: 25px;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: black;
+  width: 146px;
+  height: 35px;
+  background-color: silver;
+  border: 4px solid transparent;
+  border-image: url("img/nav/border.gif") 4 / 4px;
+}
+
 #navstart {
   position: fixed;
   left: 4px;
   width: 108px;
   height: 52px;
-  background: url("img/desktop/taskbar-start.png") left no-repeat;
+  background: url("img/taskbar/start.png") left no-repeat;
   pointer-events: none;
 }
 
-#navend {
+#clock {
   position: absolute;
-  right: 4px;
-  width: 130px;
-  height: 52px;
-  background: url("img/desktop/taskbar-end.png") right no-repeat;
-  pointer-events: none;
+  bottom: 0px;
+  right: 8px;
+  width: 122px;
+  height: 40px;
+  background-color: silver;
+  border-top: 2px solid #818181;
+  border-left: 2px solid #818181;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
-#navend p {
+#clock p {
   text-align: center;
-  padding-top: 12px;
-  padding-right: 4px;
+  padding-top: 6px;
+  user-select: none;
 }
 
 iframe {
   margin-top: 8px;
   width: calc(100% - 8px);
   height: calc(100dvh - 172px);
+  background-color: white;
   border: 4px solid transparent;
-  border-image: url("img/window/border-frame.png") 4 / 4px;
+  border-image: url("img/content/border.gif") 4 / 4px;
 }

@@ -121,7 +121,7 @@ nav {
   color: black;
   width: 146px;
   height: 30px;
-  background-image: url("img/nav/bg.gif");
+  background: url("img/nav/bg.gif") repeat-x;
   border: 4px solid transparent;
   border-image: url("img/nav/border1.gif") 4 / 4px;
   user-select: none;
@@ -141,6 +141,7 @@ nav {
   background-color: silver;
   border: 4px solid transparent;
   border-image: url("img/nav/border.gif") 4 / 4px;
+  user-select: none;
 }
 
 #navstart {

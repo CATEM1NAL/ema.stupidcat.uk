@@ -169,7 +169,6 @@ nav {
 #clock p {
   text-align: center;
   padding-top: 6px;
-  padding-bottom: 6px;
   user-select: none;
 }
 
@@ -180,4 +179,5 @@ iframe {
   background-color: white;
   border: 4px solid transparent;
   border-image: url("img/content/border.gif") 4 / 4px;
+
 }

@@ -111,16 +111,18 @@ nav {
 }
 
 .navbuttons p {
+  display: flex;
+  align-items: center;
   font-weight: bold;
   font-size: 23px;
   text-decoration: none;
   white-space: nowrap;
-  padding-top: 6px;
+  padding-top: 5px;
   padding-left: 3px;
   padding-right: 3px;
   color: black;
-  width: 149px;
-  height: 30px;
+  width: 146px;
+  height: 31px;
   background-image: url("img/nav/bg.gif");
   border: 4px solid transparent;
   border-image: url("img/nav/border1.gif") 4 / 4px;
@@ -128,17 +130,17 @@ nav {
 }
 
 .navbuttons a {
+  display: flex;
   align-items: center;
   font-weight: normal;
   font-size: 25px;
   text-decoration: none;
   white-space: nowrap;
-  padding-top: 1px;
   padding-left: 3px;
   padding-right: 3px;
   color: black;
   width: 146px;
-  height: 35px;
+  height: 36px;
   background-color: silver;
   border: 4px solid transparent;
   border-image: url("img/nav/border.gif") 4 / 4px;
@@ -167,9 +169,10 @@ nav {
 }
 
 #clock p {
-  text-align: center;
+  display: flex;
   padding-top: 6px;
-  padding-bottom: 6px;
+  align-items: center;
+  justify-content: center;
   user-select: none;
 }
 

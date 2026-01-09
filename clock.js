@@ -30,5 +30,5 @@ function showTime() {
         am_pm;
 
     // Displaying the time
-    document.querySelector("#navend p").textContent = currentTime;
+    document.querySelector("#clock p").textContent = currentTime;
 }

@@ -30,7 +30,7 @@ body {
 }
 
 h1,p { margin: 0; }
-b,a { font-size: 20px; }
+b,a,strong { font-size: 20px; }
 a { font-weight: bold; }
 audio { padding-top: 8px; }
 

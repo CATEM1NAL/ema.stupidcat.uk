@@ -24,11 +24,11 @@ only to later realise that CSS already had a solution to the problem built in an
 hours on stuff like this. I also fucking hate CSS and wish for it to burn in Mount Doom.
 
 Okay, well that's an exaggeration. I had a lot of fun writing CSS and figuring out novel ways to
-optimise my image usage throughout this project - what I *didn't* enjoy was trying to make it also
-work on mobile. Truth be told, the site actually doesn't function correctly on mobile right now.
-The text in the nav buttons and clock on mobile are aligned to the top of their boxes, instead of
-the center. Why? I have no fucking clue and do not want to spend even more time than I already have
-trying to figure it out.
+optimise my image usage throughout this project (the graphical assets take up less than 1kb!) -
+what I *didn't* enjoy was trying to make it also work on mobile. Truth be told, the site actually
+doesn't function correctly on mobile right now. The text in the nav buttons and clock on mobile are
+aligned to the top of their boxes, instead of the center. Why? I have no fucking clue and do not want
+to spend even more time than I already have trying to figure it out.
 
 Anyway, there's a lot more I could write here but I'm hungry and want to go play a video game before
 tomorrow (the 13th) hits. It's not going to be a complicated day, but I'm planning on changing my

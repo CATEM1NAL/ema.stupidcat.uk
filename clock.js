@@ -1,3 +1,6 @@
+// code from here:
+// https://www.geeksforgeeks.org/javascript/how-to-design-digital-clock-using-javascript
+
 showTime();
 setInterval(showTime, 1000);
 function showTime() {
@@ -16,18 +19,12 @@ function showTime() {
         am_pm = " AM";
     }
 
-    hour =
-        hour < 10 ? "0" + hour : hour;
+    hour = hour < 10 ? "0" + hour : hour;
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
 
     let currentTime =
-        hour +
-        ":" +
-        min +
-        ":" +
-        sec +
-        am_pm;
+        hour + ":" + min + ":" + sec + am_pm;
 
     // Displaying the time
     document.querySelector("#clock p").textContent = currentTime;

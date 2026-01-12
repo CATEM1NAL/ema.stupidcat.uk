@@ -42,6 +42,7 @@ h1 {
   background-image: url("img/window/controls.gif");
   background-repeat: no-repeat;
   background-position: right 4px center;
+  background-size: 100px;
   padding-top: 6px;
   padding-left: 6px;
   padding-bottom: 1px;
@@ -60,7 +61,7 @@ hr {
   max-width: 1024px;
   background-color: silver;
   border: 4px solid transparent;
-  border-image: url("img/window/border.gif") 4 / 4px;
+  border-image: url("img/window/border.gif") 2 / 4px;
   padding-top: 4px;
   padding-left: 4px;
   padding-right: 4px;
@@ -68,6 +69,7 @@ hr {
 
 .window-content {
   max-height: calc(100dvh - 148px);
+  padding-top: 10px;
   padding-bottom: 4px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -78,7 +80,7 @@ hr {
   margin-top: 8px;
   background-color: white;
   border: 4px solid transparent;
-  border-image: url("img/content/border.gif") 4 / 4px;
+  border-image: url("img/content/border.gif") 2 / 4px;
   object-fit: contain;
   max-width: calc(100% - 8px);
 }
@@ -89,7 +91,7 @@ nav {
   left: 0;
   width: 100%;
   border: 4px solid transparent;
-  border-image: url("img/taskbar/top.gif") 4 / 4px;
+  border-image: url("img/taskbar/top.gif") 2 / 4px;
   height: 48px;
   background: silver;
   overflow: hidden;
@@ -122,8 +124,9 @@ nav {
   width: 146px;
   height: 30px;
   background: url("img/nav/bg.gif") repeat-x;
+  background-size: 4px;
   border: 4px solid transparent;
-  border-image: url("img/nav/border1.gif") 4 / 4px;
+  border-image: url("img/nav/border1.gif") 2 / 4px;
   user-select: none;
 }
 
@@ -140,7 +143,7 @@ nav {
   height: 35px;
   background-color: silver;
   border: 4px solid transparent;
-  border-image: url("img/nav/border.gif") 4 / 4px;
+  border-image: url("img/nav/border.gif") 2 / 4px;
   user-select: none;
 }
 
@@ -149,7 +152,8 @@ nav {
   left: 4px;
   width: 108px;
   height: 52px;
-  background: url("img/taskbar/start.png") left no-repeat;
+  background: url("img/taskbar/start.gif") left no-repeat;
+  background-size: 108px;
   pointer-events: none;
 }
 
@@ -175,9 +179,7 @@ nav {
 iframe {
   margin-top: 8px;
   width: calc(100% - 8px);
-  height: calc(100dvh - 172px);
   background-color: white;
   border: 4px solid transparent;
-  border-image: url("img/content/border.gif") 4 / 4px;
-
+  border-image: url("img/content/border.gif") 2 / 4px;
 }

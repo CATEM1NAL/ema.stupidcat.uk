@@ -4,7 +4,7 @@ My previous site was hosted on carrd, and while I love and respect just how affo
 ($20 for a year of hosting up to 10 pages with a pretty powerful and intuitive editor isn't that bad!),
 I was only really using one page and it seemed like a bit much for my use case.
 
-I paid the $20 on January 13th 2024 - the deadline approaches, and the card that I had linked to carrd
+I paid the $20 on January 13th 2025 - the deadline approaches, and the card that I had linked to carrd
 (confusing, I know) had ceased to exist. I either needed to link a new card to keep paying, or take the
 secret second option:
 
@@ -29,6 +29,11 @@ what I *didn't* enjoy was trying to make it also work on mobile. Truth be told, 
 doesn't function correctly on mobile right now. The text in the nav buttons and clock on mobile are
 aligned to the top of their boxes, instead of the center. Why? I have no fucking clue and do not want
 to spend even more time than I already have trying to figure it out.
+
+If you take a look at any of the HTML/CSS and it looks like a mess, here's a surprise for you:
+I wrote this whole thing in Notepad. Should I have used literally anything else? Absolutely.
+I chose not to for one simple reason - it makes for a funny thing to put in this readme and will
+make anyone with experience wince.
 
 Anyway, there's a lot more I could write here but I'm hungry and want to go play a video game before
 tomorrow (the 13th) hits. It's not going to be a complicated day, but I'm planning on changing my
